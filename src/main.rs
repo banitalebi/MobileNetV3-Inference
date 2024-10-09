@@ -16,6 +16,8 @@ fn main() -> TractResult<()> {
     let mut total_images: u32 = 0;
 
     for entry in fs::read_dir("test/violence")? {
+        // ToDO: Check preprocessing.
+        // image network depends on an extra normalisation step
         let path = entry?.path();
         let image_path = path.to_str().unwrap();
         let image = image::open(image_path)?.to_rgb8();
