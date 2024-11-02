@@ -4,5 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-tract-onnx = "0.21.6"
-image = "0.25.2"
+tract-onnx = "0.21.7"
+image = "0.25.4"
+ndarray = "0.15"
+rayon = "1.5"
