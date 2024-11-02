@@ -12,9 +12,9 @@ Note that the test dataset is used exclusively for evaluation. and it can be fou
 
 ## Results
 The results are listed as follows:
-- **True Positives** (Violence): 529
-- **True Negatives** (Non-Violence): 328
-- **False Positives** (Predicted Violence, Actual Non-Violence): 196
-- **False Negatives** (Predicted Non-Violence, Actual Violence): 56
+- **True Positives** (Violence): 491
+- **True Negatives** (Non-Violence): 404
+- **False Positives** (Predicted Violence, Actual Non-Violence): 120
+- **False Negatives** (Predicted Non-Violence, Actual Violence): 94
 - **Total Images:** 1109
-- **Accuracy:** 77.28%
+- **Accuracy:** 80.70%
